@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @boletum.nombre %>
+</p>
+
+<p>
+  <strong>Ciudad:</strong>
+  <%= @boletum.ciudad %>
+</p>
+
+<p>
+  <strong>Pais:</strong>
+  <%= @boletum.pais %>
+</p>
+
+<p>
+  <strong>Fecha inicio:</strong>
+  <%= @boletum.fecha_inicio %>
+</p>
+
+<p>
+  <strong>Fecha evento:</strong>
+  <%= @boletum.fecha_evento %>
+</p>
+
+<%= link_to 'Edit', edit_boletum_path(@boletum) %> |
+<%= link_to 'Back', boleta_path %>
