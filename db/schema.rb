@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20170912191336) do
 
   create_table "events", force: :cascade do |t|
@@ -24,6 +25,21 @@ ActiveRecord::Schema.define(version: 20170912191336) do
   end
 
   create_table "localities", force: :cascade do |t|
+=======
+ActiveRecord::Schema.define(version: 20170911140216) do
+
+  create_table "boleta", force: :cascade do |t|
+    t.string "nombre"
+    t.string "ciudad"
+    t.string "pais"
+    t.date "fecha_inicio"
+    t.date "fecha_evento"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "localidades", force: :cascade do |t|
+>>>>>>> e726aa3161ce6e066dfcacd5328d2a5029866644
     t.string "tipo"
     t.float "precio"
     t.date "fecha_limite"
@@ -32,10 +48,20 @@ ActiveRecord::Schema.define(version: 20170912191336) do
   end
 
   create_table "tickets", force: :cascade do |t|
+<<<<<<< HEAD
     t.integer "event_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["event_id"], name: "index_tickets_on_event_id"
+=======
+    t.string "nombre"
+    t.string "ciudad"
+    t.string "pais"
+    t.date "fecha_inicio"
+    t.date "fecha_evento"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+>>>>>>> e726aa3161ce6e066dfcacd5328d2a5029866644
   end
 
 end

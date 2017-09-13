@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "servicerest",
+=======
+  "name": "practicarest",
+>>>>>>> e726aa3161ce6e066dfcacd5328d2a5029866644
   "private": true,
   "dependencies": {}
 }

@@ -1,12 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-<<<<<<< HEAD
-  event: one
-
-two:
-  event: two
-=======
   nombre: MyString
   ciudad: MyString
   pais: MyString
@@ -19,4 +13,3 @@ two:
   pais: MyString
   fecha_inicio: 2017-09-11
   fecha_evento: 2017-09-11
->>>>>>> e726aa3161ce6e066dfcacd5328d2a5029866644

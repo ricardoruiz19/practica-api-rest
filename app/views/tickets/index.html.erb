@@ -5,7 +5,15 @@
 <table>
   <thead>
     <tr>
+<<<<<<< HEAD
       <th>Event</th>
+=======
+      <th>Nombre</th>
+      <th>Ciudad</th>
+      <th>Pais</th>
+      <th>Fecha inicio</th>
+      <th>Fecha evento</th>
+>>>>>>> e726aa3161ce6e066dfcacd5328d2a5029866644
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -13,7 +21,15 @@
   <tbody>
     <% @tickets.each do |ticket| %>
       <tr>
+<<<<<<< HEAD
         <td><%= ticket.event %></td>
+=======
+        <td><%= ticket.nombre %></td>
+        <td><%= ticket.ciudad %></td>
+        <td><%= ticket.pais %></td>
+        <td><%= ticket.fecha_inicio %></td>
+        <td><%= ticket.fecha_evento %></td>
+>>>>>>> e726aa3161ce6e066dfcacd5328d2a5029866644
         <td><%= link_to 'Show', ticket %></td>
         <td><%= link_to 'Edit', edit_ticket_path(ticket) %></td>
         <td><%= link_to 'Destroy', ticket, method: :delete, data: { confirm: 'Are you sure?' } %></td>

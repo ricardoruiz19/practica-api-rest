@@ -1,0 +1,2 @@
+class Boleta < ApplicationRecord
+end

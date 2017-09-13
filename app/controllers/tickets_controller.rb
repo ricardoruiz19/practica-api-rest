@@ -26,7 +26,10 @@ class TicketsController < ApplicationController
   def create
     @ticket = Ticket.new(ticket_params)
 
+<<<<<<< HEAD
   #raise @ticket.inspect
+=======
+>>>>>>> e726aa3161ce6e066dfcacd5328d2a5029866644
     respond_to do |format|
       if @ticket.save
         format.html { redirect_to @ticket, notice: 'Ticket was successfully created.' }
@@ -62,6 +65,7 @@ class TicketsController < ApplicationController
     end
   end
 
+<<<<<<< HEAD
 
   def newticket
      @ticket = Ticket.new(event_id: params[:event_id])
@@ -84,6 +88,8 @@ class TicketsController < ApplicationController
   end
 
 
+=======
+>>>>>>> e726aa3161ce6e066dfcacd5328d2a5029866644
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_ticket
@@ -92,6 +98,10 @@ class TicketsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def ticket_params
+<<<<<<< HEAD
       params.require(:ticket).permit(:event_id)
+=======
+      params.require(:ticket).permit(:nombre, :ciudad, :pais, :fecha_inicio, :fecha_evento)
+>>>>>>> e726aa3161ce6e066dfcacd5328d2a5029866644
     end
 end

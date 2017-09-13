@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e726aa3161ce6e066dfcacd5328d2a5029866644
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +26,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+<<<<<<< HEAD
+=======
+=======
+"# practica-api-rest" 
+>>>>>>> b92396d99899ed59ad46c1576479dc82cab48112
+>>>>>>> e726aa3161ce6e066dfcacd5328d2a5029866644
