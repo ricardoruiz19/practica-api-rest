@@ -11,7 +11,8 @@ Things you may want to cover:
 * Configuration
 
 * Database creation
-Note: The Database the use is SQlite 
+  +Note: The Database the use is SQlite 
+  
   1. Create a scaffold of locality, event, ticket
 
 * Database initialization
