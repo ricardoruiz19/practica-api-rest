@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+These are the instructions in which the API-REST was developed
 
 Things you may want to cover:
 
@@ -12,6 +11,8 @@ Things you may want to cover:
 * Configuration
 
 * Database creation
+Note: The Database the use is SQlite 
+  1. Create a scaffold of locality, event, ticket
 
 * Database initialization
 
