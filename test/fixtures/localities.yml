@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tipo: MyString
+  precio: 1.5
+  fecha_limite: 2017-09-12
+
+two:
+  tipo: MyString
+  precio: 1.5
+  fecha_limite: 2017-09-12

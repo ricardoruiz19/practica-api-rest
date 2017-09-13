@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Tipo:</strong>
+  <%= @locality.tipo %>
+</p>
+
+<p>
+  <strong>Precio:</strong>
+  <%= @locality.precio %>
+</p>
+
+<p>
+  <strong>Fecha limite:</strong>
+  <%= @locality.fecha_limite %>
+</p>
+
+<%= link_to 'Edit', edit_locality_path(@locality) %> |
+<%= link_to 'Back', localities_path %>

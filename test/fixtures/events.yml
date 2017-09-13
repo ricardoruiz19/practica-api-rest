@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre: MyString
+  ciudad: MyString
+  fecha_preventa: 2017-09-12
+  fecha_evento: 2017-09-12
+
+two:
+  nombre: MyString
+  ciudad: MyString
+  fecha_preventa: 2017-09-12
+  fecha_evento: 2017-09-12

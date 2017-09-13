@@ -1,0 +1,1 @@
+json.array! @localidadnombrefecha, partial: 'localities/otro', as: :locality
